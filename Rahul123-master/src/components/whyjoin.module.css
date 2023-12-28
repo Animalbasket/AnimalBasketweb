@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.why{
+    background-color:beige;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+h4{
+    font-size: 50px;
+    padding-top: 5rem;
+    color:black;
+}
+
+.why p{
+    color:black;
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+.about{
+    width:50rem;
+    
+    
+}
+
+
+@media (max-width:807px){
+    .about{
+        width:35rem;
+    }
+}
+
+@media (max-width:575px){
+    .about{
+        width:20rem;
+    }
+    
+    
+    
+}
